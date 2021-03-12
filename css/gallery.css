@@ -45,7 +45,7 @@ img{
 }
 
 .gallery-container a{                  /*  action*/
-    background-color: gray;
+    background-color: rgb(150, 148, 148);
     background-position: center;
     background-size: cover;
     border-radius: 10px;       /*  curves color in box*/

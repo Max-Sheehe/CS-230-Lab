@@ -13,7 +13,8 @@ require 'includes/header.php';
             
             while($row = mysqli_fetch_assoc($query)){       //while there is a row in gallery that hasnt been pulled
                 //make a gallery card
-                
+                //no comm
+        
                 //note that the '. and .' in statements like '.$row["picpath"].' allow us to concatonate onto thefile path
                 echo '
                 <div class = "card">
