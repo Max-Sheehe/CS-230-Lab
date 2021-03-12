@@ -36,12 +36,20 @@ session_start();
                 
                 <?php if (isset($_SESSION['uid'])){
                     //this checks to see if someone is loged in. you set the uid when you login
-                    echo '    <li class="nav-item">
-                    <a class="nav-link" href="includes/logout.php">Logout </a>
+                    echo '   
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.php">gallery</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="profile.php">profile </a>
-            </li>'
+                    <a class="nav-link" href="profile.php">profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admin.php">admin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="includes/logout.php">Logout </a>
+                </li>
+                '
                 ;
 
                 } else{

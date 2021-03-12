@@ -1,0 +1,58 @@
+
+ /*  main gallery title
+        */
+h1 {        
+    text-align: center;
+       
+}
+
+ /*  gallery card title
+        */
+h3{
+    color: darksalmon;
+}
+
+p{
+    color: dodgerblue;
+}
+
+img{
+    max-width: 220px;
+    height: 220px;
+    margin-top: 10px;
+}
+
+
+ /*  how does this work?
+        */
+.gallery-container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ /*  some pics are bigger than their cards. how to fix?
+        */
+.card{
+    border-radius: 10px;
+    margin: 10px;       /*  curves box*/
+    width: 20%;         /*  takes up a fifth of the page*/
+    max-width: 280px;
+    height: auto;
+    padding: 5px;
+}
+
+.gallery-container a{                  /*  action*/
+    background-color: gray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;       /*  curves color in box*/
+}
+
+.gallery-container a:hover{
+    opacity: 70%;
+    text-decoration-color: rgb(61, 155, 233);
+}
+
