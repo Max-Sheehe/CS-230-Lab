@@ -16,6 +16,8 @@ require 'includes/header.php';
                 //no comm
         
                 //note that the '. and .' in statements like '.$row["picpath"].' allow us to concatonate onto thefile path
+               
+               //code below in a tag puts pid into the url
                 echo '
                 <div class = "card">
                 <a href="review.php?id='.$row['pid'].'">
