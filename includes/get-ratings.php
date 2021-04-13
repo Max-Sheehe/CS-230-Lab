@@ -22,6 +22,8 @@ echo'
 </div>
 ';
 
+
+//we could use something like this to create the discussion board functionality. it essentially 
 function stars($av){
     $s = "";
     if ($av == 0) {
