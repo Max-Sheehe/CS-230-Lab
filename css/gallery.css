@@ -9,11 +9,11 @@ h1 {
  /*  gallery card title
         */
 h3{
-    color: darksalmon;
+    color: black;
 }
 
 p{
-    color: dodgerblue;
+    color:rgb(88, 96, 102);
 }
 
 img{
@@ -45,7 +45,7 @@ img{
 }
 
 .gallery-container a{                  /*  action*/
-    background-color: rgb(150, 148, 148);
+    background-color: darksalmon;
     background-position: center;
     background-size: cover;
     border-radius: 10px;       /*  curves color in box*/
@@ -53,6 +53,6 @@ img{
 
 .gallery-container a:hover{
     opacity: 70%;
-    text-decoration-color: rgb(61, 155, 233);
+    text-decoration-color: rgb(129, 180, 221);
 }
 

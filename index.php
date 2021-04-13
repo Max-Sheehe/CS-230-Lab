@@ -6,7 +6,7 @@ require 'includes/header.php';
 
     <div class="about">
         <h1>About Us</h1>
-        <p>hfejkdsafhjkfdsjlhdfsjkhf</p>
+        <p>Our Team</p>
     </div>  
     <div class="row">
 
@@ -15,7 +15,7 @@ require 'includes/header.php';
                 <img src="images/1.jpeg">
                 <div class="container">
                     <h2>CEO</h2>
-                    <p style="color: red">spike</p>
+                    <p>spike</p>
                     <p>Email: spike@cs230.com</p>
                 </div>
             </div>
@@ -25,7 +25,7 @@ require 'includes/header.php';
                 <img src="images/2.jpeg">
                 <div class="container">
                     <h2>Quality Control</h2>
-                    <p class="c2">mugen n jin</p>
+                    <p>mugen n jin</p>
                     <p>Email: sunflowers@cs230.com</p>
                 </div>
             </div>
